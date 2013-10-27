@@ -1,7 +1,7 @@
-require 'jemc_cexample'
+require 'jemc_cppexample'
 
-p JEMC::CExample
-p JEMC::CExample.singleton_methods(false)
-p JEMC::CExample.dummy
-p JEMC::CExample.version
-p JEMC::CExample.passthru 55
+p JEMC::CPPExample
+p JEMC::CPPExample.singleton_methods(false)
+p JEMC::CPPExample.dummy
+p JEMC::CPPExample.version
+p JEMC::CPPExample.passthru 55

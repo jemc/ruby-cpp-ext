@@ -1,7 +1,7 @@
 
 require 'rake/extensiontask'
 
-gemname = 'jemc_cexample'
+gemname = 'jemc_cppexample'
 task :default => [:sandbox]
 
 # Rebuild c extensions
